@@ -4,7 +4,7 @@
   "description": "practicing with redux",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/DavidPark2/redux_counter/issues"
   },
-  "homepage": "https://github.com/DavidPark2/redux_counter#readme"
+  "homepage": "https://github.com/DavidPark2/redux_counter#readme",
+  "dependencies": {
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^0.7.0"
+  }
 }
